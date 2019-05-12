@@ -20,7 +20,6 @@ import java.util.Set;
 @NoArgsConstructor
 @Getter
 @Setter
-//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id", scope = Book.class)
 public class Book {
 
     @Id

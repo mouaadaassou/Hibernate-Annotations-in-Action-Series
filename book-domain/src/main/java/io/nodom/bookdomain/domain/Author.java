@@ -12,7 +12,6 @@ import java.util.Set;
 @Table(name = "t_author")
 @Getter @Setter
 @NoArgsConstructor @AllArgsConstructor
-//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id", scope = Author.class)
 public class Author {
 
     @Id
